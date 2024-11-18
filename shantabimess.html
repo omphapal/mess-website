@@ -1,0 +1,1147 @@
+<html>
+    <head>
+           <!-- Font Awesome -->
+           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap">
+
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+                body{
+        margin: 0;
+        font-family: Poppins;
+        
+}
+
+
+#prev,
+#next{
+    background-color: #eee5;
+}
+.contact_us_2 h2{
+        margin-bottom: 3rem;
+    }
+    .contact_us_2 form{
+        max-width: 70rem;
+        margin: 1rem auto;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .contact_us_2 form .input-box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .contact_us_2 form .input-box input,
+    .contact_us_2 form textarea{
+        width: 100%;
+        padding: 1.5rem;
+        font-size: 1.6rem;
+        color: var(--text-color);
+        background: var(--snd-bg-color);
+        border-radius: .8rem;
+        margin: .7rem 0;
+    }
+    html{
+      scroll-behavior: smooth;
+    }
+    
+    .contact_us_2 form .input-box input{
+        width: 49%;
+    }
+    
+    .contact_us_2 form textarea{
+        resize: none;
+    }
+    .contact_us_2 form .btn{
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+body{
+    background-color: #84798E;
+}
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 10;
+}
+header nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+:root{
+    --width-circle: 150vw;
+    --radius: calc(100vw / 6);
+}
+.slider{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; 
+    position: relative;
+    background-color: #17232A;
+    background-image: radial-gradient(#fff3, transparent 50%);
+    margin-top: -50px;
+}
+.slider .list{
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: transform 0.8s;
+    
+}
+.slider .list .item{
+    width: calc(var(--radius) * 2);
+    text-align: center;
+    transform: rotate(45deg);
+    transition: transform 1s;
+}
+.slider .list .item.active{
+    transform: rotate(0deg);
+}
+.slider .list .item img{
+    width: 90%;
+    filter: drop-shadow(0 0 20px #000);
+    mix-blend-mode: difference  ;
+}
+.slider .content{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #eee;
+    width: max-content;
+}
+.slider .content div:nth-child(2){
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: bold;
+    position: relative;
+}
+.slider .content div:nth-child(2)::before{
+    position: absolute;
+    left: 60%;
+    bottom: 50%;
+    width: 80px;
+    height: 80px;
+    content: '';
+    background-image: url(img/leaves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slider .content div:nth-child(1){
+    text-align: left;
+    text-transform: uppercase;
+    transform: translateY(20px);
+}
+.slider .content button{
+    border: 1px solid #eee5;
+    background: transparent;
+    color: #eee;
+    font-family: Poppins;
+    letter-spacing: 5px;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+#prev,
+#next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #eee9;
+    background-color: #eee5;
+    color: #eee;
+    font-size: x-large;
+    font-family: monospace;
+    cursor: pointer;
+    z-index: 15;
+}
+#prev{
+    left: 20px;
+}
+#next{
+    right: 20px;
+}
+
+  pre{
+    background-image: url('leaves.png');
+  }
+
+
+/* //circle */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wk-desk-1 {
+  width: 8.333333%;
+}
+
+.wk-desk-2 {
+  width: 16.666667%;
+}
+
+.wk-desk-3 {
+  width: 25%;
+}
+
+.wk-desk-4 {
+  width: 33.333333%;
+}
+
+.wk-desk-5 {
+  width: 41.666667%;
+}
+
+.wk-desk-6 {
+  width: 50%;
+}
+
+.wk-desk-7 {
+  width: 58.333333%;
+}
+
+.wk-desk-8 {
+  width: 66.666667%;
+}
+
+.wk-desk-9 {
+  width: 75%;
+}
+
+.wk-desk-10 {
+  width: 83.333333%;
+}
+
+.wk-desk-11 {
+  width: 91.666667%;
+}
+
+.wk-desk-12 {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .wk-ipadp-1 {
+    width: 8.333333%;
+  }
+
+  .wk-ipadp-2 {
+    width: 16.666667%;
+  }
+
+  .wk-ipadp-3 {
+    width: 25%;
+  }
+
+  .wk-ipadp-4 {
+    width: 33.333333%;
+  }
+
+  .wk-ipadp-5 {
+    width: 41.666667%;
+  }
+
+  .wk-ipadp-6 {
+    width: 50%;
+  }
+
+  .wk-ipadp-7 {
+    width: 58.333333%;
+  }
+
+  .wk-ipadp-8 {
+    width: 66.666667%;
+  }
+
+  .wk-ipadp-9 {
+    width: 75%;
+  }
+
+  .wk-ipadp-10 {
+    width: 83.333333%;
+  }
+
+  .wk-ipadp-11 {
+    width: 91.666667%;
+  }
+
+  .wk-ipadp-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wk-tab-1 {
+    width: 8.333333%;
+  }
+
+  .wk-tab-2 {
+    width: 16.666667%;
+  }
+
+  .wk-tab-3 {
+    width: 25%;
+  }
+
+  .wk-tab-4 {
+    width: 33.333333%;
+  }
+
+  .wk-tab-5 {
+    width: 41.666667%;
+  }
+
+  .wk-tab-6 {
+    width: 50%;
+  }
+
+  .wk-tab-7 {
+    width: 58.333333%;
+  }
+
+  .wk-tab-8 {
+    width: 66.666667%;
+  }
+
+  .wk-tab-9 {
+    width: 75%;
+  }
+
+  .wk-tab-10 {
+    width: 83.333333%;
+  }
+
+  .wk-tab-11 {
+    width: 91.666667%;
+  }
+
+  .wk-tab-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .wk-mobile-1 {
+    width: 8.333333%;
+  }
+
+  .wk-mobile-2 {
+    width: 16.666667%;
+  }
+
+  .wk-mobile-3 {
+    width: 25%;
+  }
+
+  .wk-mobile-4 {
+    width: 33.333333%;
+  }
+
+  .wk-mobile-5 {
+    width: 41.666667%;
+  }
+
+  .wk-mobile-6 {
+    width: 50%;
+  }
+
+  .wk-mobile-7 {
+    width: 58.333333%;
+  }
+
+  .wk-mobile-8 {
+    width: 66.666667%;
+  }
+
+  .wk-mobile-9 {
+    width: 75%;
+  }
+
+  .wk-mobile-10 {
+    width: 83.333333%;
+  }
+
+  .wk-mobile-11 {
+    width: 91.666667%;
+  }
+
+  .wk-mobile-12 {
+    width: 100%;
+  }
+}
+
+.circle{
+    pointer-events: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    -webkit-mask: radial-gradient(var(--radius), transparent 100%, #000);
+    mask: radial-gradient(var(--radius), #0000 98%, #000);
+    backdrop-filter: blur(10px);
+    background: radial-gradient( 
+        calc(var(--radius) + 1px), #eee5 100%, #eee2
+    );
+    
+}
+.circle span{
+    display: block;
+    position: absolute;
+    height: calc(var(--radius) * 2 + 50px);
+    top: 50%;
+    left: 50%;
+    --rotate: 50deg;
+    transform: translate(-50%, -50%) rotate(var(--rotate));
+    text-transform: uppercase;
+    color: #fff;
+    font-size: small;
+    animation: circleRotate 20s linear infinite;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+  @media screen and (min-width: 601px) {
+  div.mahiti {
+    font-size: 80px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.mahiti {
+    font-size: 30px;
+  }
+}
+.contact_us_2 * {
+  font-family: Nunito, sans-serif;
+}
+
+.contact_us_2 .text-blk {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  line-height: 25px;
+}
+
+.contact_us_2 .responsive-cell-block {
+  min-height: 75px;
+}
+
+.contact_us_2 input:focus {
+  outline-color: initial;
+  outline-style: none;
+  outline-width: initial;
+}
+
+.contact_us_2 .container-block {
+  min-height: 75px;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: block;
+}
+
+.contact_us_2 .submit-btn:hover {
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: #333;
+}
+
+.contact_us_2 .responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.contact_us_2 .responsive-container-block.big-container {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  position: relative;
+  height: auto;
+}
+
+.contact_us_2 .responsive-container-block.container {
+  position: static;
+  min-height: 75px;
+  flex-direction: column;
+  z-index: 2;
+  max-width: 800px;
+  margin-top: 120px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+.contact_us_2 .container-block.form-wrapper {
+  background-color: white;
+  max-width: 799px;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.contact_us_2 .text-blk.contactus-head {
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 900;
+}
+
+.contact_us_2 .text-blk.contactus-subhead {
+  color: #9c9c9c;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+.contact_us_2 .responsive-cell-block.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12 {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 26px;
+  margin-left: 0px;
+  min-height: 50px;
+}
+
+.contact_us_2 .input {
+  width: 96%;
+  height: 50px;
+  padding-top: 1px;
+  padding-right: 15px;
+  padding-bottom: 1px;
+  padding-left: 15px;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #eeeeee;
+  border-right-color: #eeeeee;
+  border-bottom-color: #eeeeee;
+  border-left-color: #eeeeee;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  font-size: 16px;
+  color: black;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.contact_us_2 .textinput {
+  width: 98%;
+  min-height: 150px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #eeeeee;
+  border-right-color: #eeeeee;
+  border-bottom-color: #eeeeee;
+  border-left-color: #eeeeee;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  font-size: 16px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.contact_us_2 .submit-btn {
+  width: 98%;
+  background-color: #333;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: outset;
+  border-right-style: outset;
+  border-bottom-style: outset;
+  border-left-style: outset;
+  border-top-color: #767676;
+  border-right-color: #767676;
+  border-bottom-color: #767676;
+  border-left-color: #767676;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  cursor: pointer;
+}
+
+.contact_us_2 .form-box {
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.contact_us_2 .social-media-links {
+  width: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.contact_us_2 .link-img {
+  width: 30px;
+  height: 30px;
+}
+
+.contact_us_2 .text-blk.input-title {
+  text-align: left;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  color: #9c9c9c;
+}
+
+.contact_us_2 ::placeholder {
+  color: #dadada;
+}
+
+.contact_us_2 .blueBG {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  height: 300px;
+  background-color: #333;
+}
+
+@media (max-width: 768px) {
+  .contact_us_2 .submit-btn {
+    width: 100%;
+  }
+
+  .contact_us_2 .input {
+    width: 100%;
+  }
+
+  .contact_us_2 .textinput {
+    width: 100%;
+  }
+
+  .contact_us_2 .container-block.form-wrapper {
+    margin-top: 80px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .contact_us_2 .text-blk.input-title {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  .contact_us_2 .responsive-container-block.container {
+    margin-top: 80px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+
+  .contact_us_2 .container-block.form-wrapper {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .contact_us_2 .text-blk.contactus-head {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact_us_2 .container-block.form-wrapper {
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+  }
+
+  .contact_us_2 .container-block.form-wrapper {
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .contact_us_2 .responsive-cell-block.wk-ipadp-6.wk-tab-12.wk-mobile-12.wk-desk-6 {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+  }
+
+  .contact_us_2 .responsive-container-block {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 35px;
+    margin-left: 0px;
+  }
+
+  .contact_us_2 .text-blk.input-title {
+    font-size: 12px;
+  }
+
+  .contact_us_2 .responsive-container-block.container {
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+  }
+
+  .contact_us_2 .container-block.form-wrapper {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .contact_us_2 .responsive-container-block.big-container {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+  }
+
+  .contact_us_2 .text-blk.contactus-head {
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .contact_us_2 .input {
+    height: 45px;
+  }
+}
+.footer {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+@keyframes circleRotate{
+    to{
+        transform: translate(-50%, -50%) rotate(calc(var(--rotate) + 360deg));
+    }
+}
+
+
+        </style>
+        <title> Responsive mess Personal website</title>
+    </head>
+</body>
+
+    <header>
+        <div>एकविरा आई प्रसन🙌</div>
+        <div class="topnav">
+            <a href="#Thali">थाळी</a>
+            <a href="#dar">शुल्क</a>
+            <a href="#mahiti ">माहिती</a>
+            <a href="#contact_us_2">संपर्क</a>
+          </div>
+
+    </header>
+
+    <div class="slider">
+
+        <div class="list">
+            <div class="item" >
+                <img style="mix-blend-mode: darken;" src="pngwing.com.png">
+            </div>
+            <div class="item active">
+                <img src="pngwing.com (5).png ">
+            </div>
+            <div class="item">
+                <img src="pngwing.com (1).png">
+            </div>
+            <div class="item">
+                <img src="pngwing.com (2).png">
+            </div>
+            <div class="item">
+                <img src="pngwing.com (3).png">
+            </div>
+        </div>
+        <div class="circle">
+            Shantabai Mess is presenting Veg and Non-Veg in very good quality
+        </div>
+        <div class="content">
+            <div>थाळी</div>
+            <div>साईराम मेस</div>
+            <!-- <button>See More</button> -->
+
+        </div>
+        <div class="arow">
+            <button id="prev"></button>
+            <button id="next">></button>
+        </div>
+    </div>
+    
+    <div>
+    <section class="Thali" id="Thali">
+        <!-- <h2 class="heading"><b>थाळी</b></h2> -->
+       
+            <thead>
+                <h1 align="center">🍝🥘🍲थाळी मेनू🍝🥘🍲</h1>
+                <table class="styled-table" bgcolor="#848A8E" style="background-image: url('hand-drawn-indian-cuisine-illustrations_23-2149353847.avif');">
+                    <tr>
+                        <th>क्रमांक</th>
+                        <th>पदार्थ</th>
+                        <th>किंमत</th>
+                    </tr>
+                    <tbody></tbody>
+                    <tr><td>1</td><td>वडा पाव</td><td>₹20</td></tr>
+                    <tr><td>2</td><td>मिसळ पाव</td><td>₹40</td></tr>
+                    <tr><td>3</td><td>पोहा</td><td>₹30</td></tr>
+                    <tr><td>4</td><td>उपमा</td><td>₹35</td></tr>
+                    <tr><td>5</td><td>इडली</td><td>₹25</td></tr>
+                    <tr><td>6</td><td>डोसा</td><td>₹50</td></tr>
+                    <tr><td>7</td><td>सांबार वडा</td><td>₹30</td></tr>
+                    <tr><td>8</td><td>पाणीपुरी</td><td>₹20</td></tr>
+                    <tr><td>9</td><td>भेळ</td><td>₹25</td></tr>
+                    <tr><td>10</td><td>शेवपुरी</td><td>₹25</td></tr>
+                    <tr><td>11</td><td>पाव भाजी</td><td>₹60</td></tr>
+                    <tr><td>12</td><td>चाय</td><td>₹10</td></tr>
+                    <tr><td>13</td><td>कॉफी</td><td>₹15</td></tr>
+                    <tr><td>14</td><td>लस्सी</td><td>₹30</td></tr>
+                    <tr><td>15</td><td>मसाला चाय</td><td>₹15</td></tr>
+                    <tr><td>16</td><td>छास</td><td>₹10</td></tr>
+                    <tr><td>17</td><td>समोसा</td><td>₹15</td></tr>
+                    <tr><td>18</td><td>कचोरी</td><td>₹20</td></tr>
+                    <tr><td>19</td><td>पोहा जलेबी</td><td>₹35</td></tr>
+                    <tr><td>20</td><td>कटलेट</td><td>₹25</td></tr>
+                    <tr><td>21</td><td>पनीर टिक्का</td><td>₹80</td></tr>
+                    <tr><td>22</td><td>चिकन टिक्का</td><td>₹100</td></tr>
+                    <tr><td>23</td><td>मटन करी</td><td>₹150</td></tr>
+                    <tr><td>24</td><td>फिश फ्राय</td><td>₹120</td></tr>
+                    <tr><td>25</td><td>चिकन बिर्याणी</td><td>₹130</td></tr>
+                    <tr><td>26</td><td>मटन बिर्याणी</td><td>₹150</td></tr>
+                    <tr><td>27</td><td>वेज बिर्याणी</td><td>₹100</td></tr>
+                    <tr><td>28</td><td>पनीर बटर मसाला</td><td>₹90</td></tr>
+                    <tr><td>29</td><td>पालक पनीर</td><td>₹80</td></tr>
+                    <tr><td>30</td><td>राजमा चावल</td><td>₹70</td></tr>
+                <!-- and so on... -->
+            </tbody>
+        </table>
+
+    </section>
+    <section class="dar" id="dar">
+        <h2 class="heading" align="center">शुल्क</h2>
+        <table class="styled-table" bgcolor="#848A8E">
+            <tr>
+                <th>दिवस</th>
+                <th></th>
+                <th>शुल्क</th>
+            </tr>
+            <tbody></tbody>
+            <tr><td>30</td><td>मुलगी</td><td>₹2500</td></tr>
+            <tr><td>15</td><td>मुलगी</td><td>₹1300</td></tr>
+            <tr><td>30</td><td>मुलगा</td><td>₹3000</td></tr>
+            <tr><td>14</td><td>मुलगा</td><td>₹1500</td></tr>
+            <tr><td></td><td>Extra पोळी</td><td>₹10</td></tr>
+        
+        <!-- and so on... -->
+    </tbody>
+</table>
+    <table>
+
+    </table>
+    </section>
+    <hr border="drop-shadow">
+    <div>
+        
+        <section class="mahiti" id="mahiti">
+            <h1 style="font-size:8vw" align="center">माहिती</h1>
+            <hr border="border-collapse">
+            <pre style="font-size:2vw" >
+                
+      हॉटेल, इमारत जी प्रवासी लोकांना व्यावसायिक आधारावर निवास, जेवण आणि इतर सेवा पुरवते. 
+      मोटेल हॉटेलप्रमाणेच कार्य करते परंतु ऑटोमोबाईल वापरणाऱ्या प्रवाशांसाठी डिझाइन केलेल्या फॉरमॅटमध्ये.
+      व्यापारी आणि इतर प्रवाशांना सेवा देण्यासाठी सराय फार प्राचीन काळापासून अस्तित्वात आहेत.
+      रोमन साम्राज्यात सरकारी किंवा व्यावसायिक व्यवसायावरील प्रवाशांना सामावून घेण्यासाठी हवेली 
+      नावाची वसतिगृहे रोमन रस्ता प्रणालीच्या बाजूला वसलेली होती.
+      युरोपियन मध्ययुगाच्या व्यावसायिक पुनरुज्जीवनाने सराय आणि 
+      वसतिगृहांच्या व्यापक वाढीला चालना दिली. 
+      धोकादायक प्रदेशातील प्रवाश्यांसाठी आश्रयस्थानाची हमी देण्यासाठी यापैकी 
+      अनेक मठवासी बांधवांनी चालवले होते;
+      एक प्रसिद्ध उदाहरण म्हणजे स्विस आल्प्समधील ग्रेट सेंट बर्नार्ड पासमधील वसतिगृह, 
+      जे 10 व्या शतकात मॉन्टजॉक्सच्या 
+      सेंट बर्नार्डने स्थापन केले होते आणि अजूनही ऑगस्टिनियन भिक्षूंच्या समुदायाद्वारे
+      चालवले जाते. 
+      13व्या शतकात चीन मार्को पोलोने मंगोल पोस्टल सेवेसाठी प्रवाश्यांसाठी निवास आणि 
+      वे स्टेशन्स प्रदान करण्यासाठी रिले हाऊसची 
+      एक विस्तृत प्रणाली अस्तित्वात आणली.
+      प्रामुख्याने व्यापाऱ्यांच्या वापरासाठी असलेल्या खाजगीरित्या चालवल्या जाणाऱ्या 
+      इन्स नंतरच्या मध्ययुगात इस्लामिक आणि पश्चिम युरोपीय
+      दोन्ही देशांमध्ये व्यापक होत्या. 
+            </pre>
+        </section>
+    </div>
+    <hr border="bold">
+        <form action="#">
+          
+            <div class="contact_us_2"id="contact_us_2">
+                <div class="responsive-container-block big-container">
+                  <div class="blueBG">
+                  </div>
+                  <div class="responsive-container-block container">
+                    <form class="form-box">
+                      <div class="container-block form-wrapper">
+                        <p class="text-blk contactus-head">
+                          आम्हला विचारा❔
+                        </p>
+                        <p class="text-blk contactus-subhead">
+                            🥘आमची बातच न्यारी, खा झणझणीत मटण भाकरी🍝
+                        </p>
+                        <div class="responsive-container-block">
+                          <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt">
+                            <p class="text-blk input-title">
+                              FIRST NAME
+                            </p>
+                            <input class="input" id="ijowk" name="FirstName" placeholder="Please enter first name...">
+                          </div>
+                          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                            <p class="text-blk input-title">
+                              LAST NAME
+                            </p>
+                            <input class="input" id="indfi" name="Last Name" placeholder="Please enter last name...">
+                          </div>
+                          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                            <p class="text-blk input-title">
+                              EMAIL
+                            </p>
+                            <input class="input" id="ipmgh" name="Email" placeholder="Please enter email...">
+                          </div>
+                          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                            <p class="text-blk input-title">
+                              PHONE NUMBER
+                            </p>
+                            <input class="input" id="imgis" name="PhoneNumber" placeholder="Please enter phone number...">
+                          </div>
+                          <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i">
+                            <p class="text-blk input-title">
+                              WHAT DO YOU HAVE IN MIND
+                            </p>
+                            <textarea class="textinput" id="i5vyy" placeholder="Please enter query..."></textarea>
+                          </div>
+                        </div>
+                        <button class="submit-btn">
+                          Submit
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </form>
+    </section>
+    </div>
+<hr size="20" type="drop-shadow">
+    <div>
+    <!-- FOOTER DESIGN -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @Omkar | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+</div>
+    <script>
+        let circle = document.querySelector('.circle');
+let slider = document.querySelector('.slider');
+let list = document.querySelector('.list');
+let prev = document.getElementById('prev');
+let next = document.getElementById('next');
+let items = document.querySelectorAll('.list .item');
+let count = items.length;
+let active = 1;
+let leftTransform = 0;
+let width_item = items[active].offsetWidth;
+
+next.onclick = () => {
+    active = active >= count - 1 ? count - 1 : active + 1;
+    runCarousel();
+}
+// next.onkeydown=()=>{
+//     active = active >= count - 1 ? count - 1 : active + 1;
+//     runCarousel();
+// }
+
+prev.onclick = () => {
+    active = active <= 0 ? active : active - 1;
+    runCarousel();
+}
+function runCarousel() {
+    prev.style.display = (active == 0) ? 'none' : 'block';
+    next.style.display = (active == count - 1) ? 'none' : 'block';
+
+
+    let old_active = document.querySelector('.item.active');
+    if(old_active) old_active.classList.remove('active');
+    items[active].classList.add('active');
+
+     leftTransform = width_item * (active - 1) * -1;
+    list.style.transform = `translateX(${leftTransform}px)`;
+}
+runCarousel();
+
+
+// Set Text on a Circle
+let textCircle = circle.innerText.split('');
+circle.innerText = '';
+textCircle.forEach((value, key) => {
+    let newSpan =  document.createElement("span");
+    newSpan.innerText = value;
+    let rotateThisSpan = (360 / textCircle.length) * (key + 1);
+    newSpan.style.setProperty('--rotate', rotateThisSpan + 'deg');
+    circle.appendChild(newSpan); 
+}); 
+    </script>
+</body>
+</html>
+</html>
